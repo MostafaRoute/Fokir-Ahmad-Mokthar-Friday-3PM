@@ -1,0 +1,209 @@
+/* Media of home section */
+
+/* Mobile */
+
+@media screen and (max-width: 767px) {
+    .list-section ul {
+        display: none;
+    }
+
+    .navbar .list-section i {
+        font-size: 20px;
+        display: inline-block;
+        position: absolute;
+        right: 200px;
+        top: 25px;
+    }
+
+    .navbar .list-section i:hover {
+        cursor: pointer;
+    }
+
+    .navbar .logo {
+        position: relative;
+        left: 60px;
+    }
+
+    .home .content h3 {
+        font-size: 20px
+    }
+
+    .home .content h1 {
+        font-size: 35px;
+    }
+
+    .home .content h4 {
+        font-size: 18px;
+        font-weight: 700;
+    }
+}
+
+/* Media of about section */
+
+/* Mobile */
+
+@media screen and (max-width: 767px) {
+    .about .bc-img {
+        display: none;
+    }
+    
+    .about .emp-img {
+        width: 80%;
+    }
+
+    .about .emp-info {
+        width: 100%;
+        margin-top: 20px;
+        position: relative;
+        left: 28px;
+    }
+
+    .about .emp-info ul li:nth-child(2n + 1) {
+        width: 100%;
+        float: none;
+    }
+}
+
+/* Small Screens */
+
+@media screen and (min-width: 768px) and (max-width:991px) {
+    .about .bc-img {
+        display: none;
+    }
+
+    .about .emp-img {
+        width: 50%;
+    }
+
+    .about .emp-info {
+        width: 35%;
+    }
+}
+
+/* Media section of service section */
+
+/* Mobile Screen */
+
+@media screen and (max-width: 767px) {
+    .service .content .item {
+        width: 100%;
+    }
+}
+
+/* Small Screen */
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .service .content .item {
+        width: 50%;
+    }
+}
+
+/* Media section of portflio section */
+
+/* Mobile Screen */
+
+@media screen and (max-width: 767px) {
+
+    .port .pics .item {
+        width: 70%;
+        position: relative;
+        left: 105px;
+    }
+
+    .port .port-list li {
+        margin-left: 25px;
+    }
+}
+
+ /* Small Screen */
+
+  @media screen and (min-width: 768px) and (max-width: 991px) {
+      .port .pics .item {
+          width: 45%;
+
+      }
+  }
+
+/* Media screen of stats section */
+
+/* Mobile Screen */
+
+@media screen and (max-width: 767px) {
+    .stat .item {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+/* Media screen of feedback section */
+
+/* Mobile Screens */
+
+@media screen and (max-width: 767px) {
+    .feed .photo {
+        width: 60%;
+        position: relative;
+        left: 50px;
+    }
+
+    .feed .container {
+            background-image: linear-gradient(140deg, #FF305B 0% 20%, #f1f1f1 20% 100%);
+    }
+
+    .feed .details {
+        padding-bottom: 100px;
+        position: relative;
+        top: 100px;
+        text-align: left;
+        padding-left: 0px;
+    }
+
+    .feed .container::after {
+        position: absolute;
+        top: 103%;
+        left: 54%;
+    }
+}
+
+/* Media screen of blog section */ 
+
+/* Mobile Screens */
+
+@media screen and (max-width: 767px) {
+    .blog .blog-content .item {
+        width: 80%;
+        position: relative;
+        left: 35px;
+        margin-bottom: 20px;
+    }
+}
+
+/* Small Screens */
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .blog .blog-content .item {
+        width: 35%;
+    }
+}
+
+/* Media screen of contact section */
+
+/* Mobile Screen */
+
+@media screen and (max-width: 767px) {
+    .contact form .name input:first-child {
+        width: 62%;
+        position: relative;
+        left: 11px;
+    }
+    .contact form .name input:last-child {
+        margin-top: 20px;
+        width: 62%;
+    }
+    .contact .btn {
+        position: relative;
+        right: 120px;
+    }
+}
+
+
